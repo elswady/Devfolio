@@ -1,0 +1,114 @@
+/* main_page_media_start */
+@media (max-width:992px){
+    .feedback-section .feedback_section_content{
+        width: 100% !important;
+    }
+    .navbar-toggler-icon{
+        background-color: #fff !important;
+    }
+    .nav-hover-1:after{
+        left: 0px;
+    }
+    .nav-hover-2:after{
+        left: 0px;
+    }
+    .nav-hover-3:after{
+        left: 0px;
+    }
+    .nav-hover-4:after{
+        left: 0px;
+    }
+    .nav-hover-5:after{
+        left: 0px;
+    }
+    .nav-hover-6:after{
+        left: 0px;
+    }
+}
+@media (max-width:768px){
+    .hero-section .container .hero-content h1{
+        font-size: 48px;
+    } 
+    .hero-section .container .hero-content h4{
+        font-size: 24px;
+    }
+    main .about-section{
+        padding-top: 4%;
+    }
+    main .Services-section{
+        padding-bottom: 3%;
+    }
+    .contact-section{
+        height: 190vh;
+    }
+}
+@media (max-width:575px){
+    .container{
+        max-width: 95%;
+    }
+    main .about-section{
+        padding-top: 6%;
+    }
+    main .Services-section .services-head .services-hand::before{
+        top: 60;
+    }
+    main .Services-section{
+        padding-bottom: 18%;
+    }
+    .statistics-section{
+        height: 140vh;
+    }
+    main .portfolio-section .container .portfolio-section-head p::after{
+        top: 60px;
+    }
+    main .blog-section .container .blog-section-head p::after{
+        top: 60px;
+    } 
+    .blog-time{
+        width: 30% !important;
+    }
+}
+@media(min-width:1200px) and (max-width:1400px){
+    .blog-time{
+        width: 30% !important;
+    }
+}
+@media(min-width:992px) and (max-width:1199px){
+    .blog-time{
+        width: 45% !important;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .blog-time{
+        width: 40% !important;
+    }
+}
+
+/* main_page_media_end */
+/* portfolio_details_media_start */
+
+@media(max-width:765px){
+    .portfolio-hero-content h2{
+        font-size: 48px;
+    }
+    .portfolio-second-section{
+        background-color: #F5F5F5;
+        padding-top: 5%;
+    }
+}
+
+/* portfolio_details_media_end */
+/* blog_library_madia_start */
+
+@media(min-width:1400px){
+    .italic-head::after{
+    top: -4px;
+}
+}
+@media(max-width:768px){
+    .library-content h3{
+    font-size: 24px;
+}
+}
+
+/* blog_library_madia_end */

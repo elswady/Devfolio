@@ -1,0 +1,101 @@
+/* portfolio_details_style_start */
+
+.navbar{
+    transition: all 0.5s;
+}
+.bg-body-tertiary {
+    background-color: transparent !important;
+}
+.scroll-bg{
+    opacity: 92%;
+    background-color: #040404 !important;
+}
+.portfolio-hero{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 50vh;
+}
+.portfolio-hero-layer{
+    background-color: #0062d3;
+}
+.portfolio-hero-content h2{
+    color: #fff;
+    font-family:var(--my-system-ui);
+    font-size: 56px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+.breadcrumb-item.active{
+    color: #ffffffa1;
+    font-family:var(--my-system-ui);
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    color: #ffffffa1;
+    font-family:var(--my-system-ui);
+}
+.portfolio-hero-content a{
+    font-family:var(--my-system-ui);
+    color: #fff;
+    text-decoration: none;
+}
+.portfolio-second-section{
+    background-color: #F5F5F5;
+    padding-top: 3%;
+}
+.carousel-indicators button{
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50%;
+    border: #0062d3 1px solid !important;
+    margin-top: 10px;
+}
+.carousel-indicators .active {
+    background-color: #0062d3;
+    opacity: 1;
+}
+.progect-details h3{
+    color: #1e1e1e;
+    font-family: var(--my-system-ui);
+    font-size: 22px;
+    font-weight: 700;
+}
+.progect-details p{
+    color: #4e4e4e;
+    font-family: var(--my-system-ui);
+    font-size: 15px;
+    font-weight: 400;
+}
+.progect-details p span{
+    font-weight: 700;
+}
+.progect-content h3{
+    color: #1e1e1e;
+    font-family: var(--my-system-ui);
+    font-size: 26px;
+    font-weight: 700;
+}
+.progect-content p{
+    color: #4e4e4e;
+    font-family: var(--my-system-ui);
+}
+.portfolio-end{
+    background-color: #0062d3;
+    height: 15vh;
+    text-align: center;
+    overflow: auto;
+}
+.portfolio-end .container{
+    margin-top:25px ;
+}
+.portfolio-end p{
+    color: #fff;
+    font-family: var(--my-system-ui);
+}
+.portfolio-end p span{
+    font-weight: 700;
+}
+
+/* portfolio_details_style_end */

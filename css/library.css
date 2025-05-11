@@ -1,0 +1,137 @@
+body{
+    height: 3000px;
+}
+.discribtion-section{
+    background-color: #f5f5f5;
+    padding: 4%;
+}
+.library-content h3{
+    color: #1e1e1e;
+    font-family: var(--my-system-ui);
+    font-size: 30px;
+    font-weight: 500;
+}
+.library-content p{
+    color: #4e4e4e;
+    font-family: var(--my-system-ui);
+}
+.library-content h5{
+    font-family: var(--my-system-ui);
+    color: #4e4e4e;
+    font-size: 20px;
+    font-weight: 400;
+}
+.library-links a{
+    text-decoration: none;
+}
+.library-links::after{
+    content: "";
+    background-color: #0078ff;
+    width: 0.3rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.italic-head::after{
+    content: "";
+    background-color: #0078ff;
+    width: 0.3rem;
+    height: 135%;
+    position: absolute;
+    top: -9px;
+    left: 0;
+}
+.input-group-text{
+    background-color: #0078ff;
+    color: #fff;
+}
+.search-section h3::after{
+    content: "";
+    background-color: #0078ff;
+    width: 0.3rem;
+    height: 2rem;
+    position: absolute;
+    top: 2px;
+    left: -25px;
+}
+.Recent-Post h3{
+    font-family: var(--my-system-ui);
+    color: #1e1e1e;
+    font-size: 26px;
+    font-weight: 600;
+}
+.Recent-Post h3::after{
+    content: "";
+    background-color: #0078ff;
+    width: 0.3rem;
+    height: 2rem;
+    position: absolute;
+    top: 2px;
+    left: -25px;
+}
+.Recent-Post-content a{
+    text-decoration: none;
+    color: #2e2e2e;
+    transition: all 0.5s;
+}
+.Recent-Post-content a:hover{
+    color: #0078ff;
+}
+.Recent-Post-content a::after{
+    content: "";
+    background-color: #0078ff;
+    width: 10px;
+    height: 1px;
+    position: absolute;
+    top: 13px;
+    left: -26px;
+}
+.tags-section h3::after{
+    content: "";
+    background-color: #0078ff;
+    width: 0.3rem;
+    height: 2rem;
+    position: absolute;
+    top: 2px;
+    left: -25px;
+}
+.tags-section a{
+    border: #0078ff 1px solid;
+    background-color: #0078ff;
+    color: #fff;
+    text-decoration: none;
+}
+.library-comments h3{
+    color: #1e1e1e;
+    font-family: var(--my-system-ui);
+    font-size: 24px;
+    font-weight: 500;
+}
+.library-comments .special-italic{
+    color: #1e1e1e;
+}
+.library-comments p{
+    color: #4e4e4e;
+}
+.library-comments a{
+    text-decoration: none;
+}
+.special-after h2::after{
+    content: "";
+    background-color: #0078FF;
+    width: 6.5rem;
+    height: 3.5px;
+    position: absolute;
+    bottom: -8 !important;
+    left: 3 !important;
+}
+.contact-first-after::after{
+    content: "";
+    background-color: #0078FF;
+    width: 6.5rem;
+    height: 3.5px;
+    position: absolute;
+    bottom: -8 !important;
+    left: 14 !important;
+}
