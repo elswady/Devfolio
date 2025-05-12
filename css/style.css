@@ -4,12 +4,13 @@
 
  /* navbar_start  */
 
- .bg-body-tertiary {
+.bg-body-tertiary {
     opacity: 92%;
     background-color: #040404 !important;
 }
 .navbar{
     top: -1;
+    z-index: 21000 !important;
 }
 .navbar-brand {
     color: #fff;
