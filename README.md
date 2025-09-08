@@ -34,7 +34,7 @@ The project was built using *HTML, CSS, Bootstrap, and some JavaScript*.
 
 ### Portfolio Details Page
 ![Portfolio Details Page](images/Defolio-screen/Portfolio-Details/screen1.png)
-![Portfolio Details Page](images/Defolio-screen/Portfolio-Details/screen1.png)
+![Portfolio Details Page](images/Defolio-screen/Portfolio-Details/screen2.png)
 
 ### Blog Details Page
 ![Blog Details Page](images/Defolio-screen/Blog-Details/screen1.png)
